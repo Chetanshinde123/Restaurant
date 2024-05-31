@@ -14,7 +14,7 @@ import Paper from '@mui/material/Paper';
 
 function Contact() {
   return (
-    <Layout>
+    <Layout sx={{height: "100vh"}}>
       <Box sx={{
         my: 9,
         p: 3,

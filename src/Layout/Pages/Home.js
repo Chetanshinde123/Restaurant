@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <Layout>
+    <Layout sx={{height: "100vh"}}>
       <div className="home" style={{ backgroundImage: `url(${banner})` }}>
         <div className="headerContainer">
           <h1> Food You Like</h1>

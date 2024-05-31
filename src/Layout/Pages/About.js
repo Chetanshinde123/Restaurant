@@ -6,7 +6,7 @@ import { Box } from "@mui/material";
 
 function About() {
   return (
-    <div>
+    <div style={{height: "100vh"}}>
       <Layout>
         <Box sx={{
           my: 20,

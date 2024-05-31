@@ -45,7 +45,8 @@ function Cart({ cart, setCart }) {
           width: "60%",
           margin: "10px auto",
           marginTop: "70px",
-          paddingTop: "20px"
+          paddingTop: "20px",
+          height: "100vh"
         }}
       >
         {cart.map(menu =>
